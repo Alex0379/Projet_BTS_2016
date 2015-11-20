@@ -1,3 +1,6 @@
-/**
- * Created by alexandre on 20/11/2015.
- */
+jQuery(document).ready(function() {
+
+    $('#boutonMenu').click(function() {
+        $('#navMenu').slideToggle();
+    })
+});
