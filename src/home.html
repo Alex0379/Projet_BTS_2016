@@ -10,30 +10,51 @@
     <body>
         <header>
             <div id="barreNavigation">
-                <img src="./ressources/logo_barre_nav.png"/>
-                <button id="boutonMenu">Menu</button>
-                <a href="#" id="rechercheContenu">Chercher un contenu |</a>
-                <input id="barreRecherche" type="text" name="recherche">
-            </div>
-            <nav id="navMenu">
-                <table>
-                    <tr>
-                        <td class="navMenu">
-                            <p>Test</p>
+                <table id="barNav">
+                    <tr style="height: 80px;">
+                        <td class="barreMenu">
+                            <img id="logoHome" src="../ressources/logo_barre_nav.png"/>
+                        </td>
+                        <td rowspan="2" class="barreMenu">
+                            <button id="boutonMenu" style="color: white;">Menu</button>
+                        </td>
+                        <td class="barreMenu">
+                            <label for="barreRecherche"><a href="#" style="float: right;" class="textNav">Chercher un contenu |</a></label>
+                        </td>
+                        <td class="barreMenu">
+                            <input id="barreRecherche" type="text" name="recherche">
+                        </td>
+                        <td class="barreMenu">
+                            <a href="#" id="connexion" class="textNav">Connexion</a>
                         </td>
                     </tr>
+                    <tr><td></td><td></td><td></td></tr>
                     <tr>
-                        <td class="navMenu">
-                            <p>Test2</p>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="navMenu">
-                            <p>Test3</p>
-                        </td>
+                        <td></td><td>
+                        <nav id="navMenu">
+                            <table>
+                                <tr>
+                                    <td class="navMenu">
+                                        <p>Test</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="navMenu">
+                                        <p>Test2</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="navMenu">
+                                        <p>Test3</p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </nav>
+                        </td><td></td><td></td>
                     </tr>
                 </table>
-            </nav>
+            </div>
+
         </header>
         <footer>
 

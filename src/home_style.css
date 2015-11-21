@@ -1,10 +1,35 @@
+/****************** Header *********************/
+
 #barreNavigation{
     position: static;
     background-color: #795A99;
     height: 80px;
     margin-top: -10px;
     margin-left: -10px;
+    width: 102%;
+    box-shadow: 0 3px 10px #aaa;
+}
+
+.textNav{
+    color: white;
+    text-decoration: none;
+}
+
+.textNav:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+#barNav{
+    position: static;
+    height: 80px;
     width: 100%;
+    border-spacing : 0;
+}
+
+.barreMenu{
+    text-align: center;
+    width: 20%;
 }
 
 #boutonMenu{
@@ -12,22 +37,12 @@
     cursor: pointer;
     background-color: rgba(192, 180, 203, 0.7);
     height: 90px;
-    margin-top: 0;
-    margin-left: 175px;
     width: 150px;
-    color: rgb(255, 255, 255);
+    float: left;
 }
 
 #boutonMenu:hover{
     background-color: rgba(192, 180, 203, 0.85);
-}
-
-#rechercheContenu{
-    position: relative;
-    margin-top: 30px;
-    margin-left: 40%;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
 }
 
 #barreRecherche{
@@ -39,17 +54,16 @@
 
 #navMenu{
     display: none;
-    position: absolute;
+    margin-top: -2px;
     background-color: rgb(121, 90, 153);
-    margin-left: 193px;
-    margin-top: 10px;
     width: 140px;
     height: 175px;
     padding-left: 10px;
-
+    box-shadow: 1px 1px 12px #555;
 }
 
 .navMenu{
+    color: white;
     cursor: pointer;
     border-bottom: solid 1px;
     border-color: rgb(87, 65, 110);
@@ -59,4 +73,10 @@
 
 .navMenu:hover{
     background-color: rgb(192, 180, 203);
+}
+
+#logoHome{
+    height: 70px;
+    width: auto;
+    color: white;
 }
