@@ -2,21 +2,21 @@
 
 #barreNavigation{
     position: static;
-    background-color: #795A99;
+    background-color: rgb(0, 112, 196);
     height: 80px;
     margin-top: -10px;
     margin-left: -10px;
     width: 102%;
-    box-shadow: 0 3px 10px #aaa;
+    box-shadow: 0 1px 5px rgb(85, 85, 85);
 }
 
 .textNav{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 .textNav:hover{
-    color: blue;
+    color: rgb(0, 173, 238);
     text-decoration: none;
 }
 
@@ -35,14 +35,14 @@
 #boutonMenu{
     border: none;
     cursor: pointer;
-    background-color: rgba(192, 180, 203, 0.7);
+    background-color: rgba(0, 173, 238, 0.7);
     height: 90px;
     width: 150px;
     float: left;
 }
 
 #boutonMenu:hover{
-    background-color: rgba(192, 180, 203, 0.85);
+    background-color: rgba(0, 173, 238, 0.85);
 }
 
 #barreRecherche{
@@ -53,30 +53,29 @@
 }
 
 #navMenu{
+    position: absolute;
     display: none;
     margin-top: -2px;
-    background-color: rgb(121, 90, 153);
-    width: 140px;
+    background-color: rgb(0, 112, 196);
+    width: 150px;
     height: 175px;
-    padding-left: 10px;
     box-shadow: 1px 1px 12px #555;
 }
 
 .navMenu{
-    color: white;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     border-bottom: solid 1px;
-    border-color: rgb(87, 65, 110);
+    border-color: rgb(0, 88, 162);
     text-align: center;
-    width: 125px;
+    width: 150px;
 }
 
 .navMenu:hover{
-    background-color: rgb(192, 180, 203);
+    background-color: rgb(0, 173, 238);
 }
 
 #logoHome{
     height: 70px;
     width: auto;
-    color: white;
 }
