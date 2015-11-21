@@ -5,6 +5,10 @@ jQuery(document).ready(function() {
         $('#navMenu').slideToggle();
     });
 
+    $('#produits').click(function() {
+        $('#navMenu2').slideToggle();
+    });
+
     // Annimation sur la barre de recherche
     $('#barreRecherche').bind('focus',function() {
             $(this).css('box-shadow', '1px 1px 12px #555');
